@@ -1,8 +1,10 @@
 #include <iostream>
 
 int main(){
-std::string name;
-std::cin >> name;
+/* comment not main()
+*/
+std::string name; // this is string
+std::cin >> name; // not string
 std::cout<<"Hello world from "<<name<<std::endl;
 return 0;
 }
